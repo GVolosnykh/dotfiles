@@ -25,3 +25,6 @@ fun! ToggleColorColumn()
 endfun
 
 nmap <C-n> :call ToggleColorColumn()<CR>
+
+nnoremap <silent> <F2> :TlistToggle<CR>
+
